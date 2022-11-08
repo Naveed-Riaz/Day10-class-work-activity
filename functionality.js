@@ -352,7 +352,7 @@ link:   "https://www.google.com/",
 ];
 let items = "";
 
-let row = document.querySelector(".row");
+let row = document.querySelector(".row"); 
 
 data.forEach((element) => {
   items += `<div class="col-4 vh-100 d-flex justify-content-center align-items-center ">
@@ -362,11 +362,11 @@ data.forEach((element) => {
                 </div>
                 <div class="card-body mt-5">
                     <h5 class="card-title">${element.title}</h5>
-                    <h6 class="occupation" style="color: rgb(209, 62, 209);">${element.id}</h6>
+                    <h6 class="occupation" style="color: #3E33E3;">${element.id}</h6>
                     <p class="card-text pt-3">${element.body}</p>
                     <div class=" my-4">
                         <a href="" target="_blank" class="btn btn-primary mt-3 "
-                            style="background-color: rgb(209, 62, 209); color: white; border: none;" >View
+                            style="background-color: #3E33E3; color: white; border: none;" >View
                             Profile</a>
                     </div>
                 </div>
